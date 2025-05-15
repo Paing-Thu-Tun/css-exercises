@@ -9,13 +9,13 @@ img {
   margin: 0 auto;
 }
 
-.items {
+.container {
   display: flex;
   gap: 52px;
   justify-content: center;
 }
 
-.item {
+.info {
   max-width: 200px;
 }
 
