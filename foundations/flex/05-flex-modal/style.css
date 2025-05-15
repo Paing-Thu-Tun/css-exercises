@@ -29,10 +29,13 @@ body {
   text-align: left;
 }
 
-.top {
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  align-items: center;
 }
 
 .icon {
@@ -84,9 +87,4 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
-
-.header {
-  font-weight: bold;
-  font-size: 20px;
 }
